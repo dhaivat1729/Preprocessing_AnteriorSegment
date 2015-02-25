@@ -35,7 +35,7 @@
 
         2. Preprocessing.py: This is main python code which is implementation of preprocessing algorithm.
 
-        3. Processing2.py: This code should be executed after running Preprocessing algorithm on raw data. It processes those images which are not processed 		    					     properly after applying preprocessing algorithm.
+        3. Preprocessing2.py: This code should be executed after running Preprocessing algorithm on raw data. It processes those images which are not processed 		    					     properly after applying preprocessing algorithm.
 
     Dependencies:
     -----------------
@@ -50,7 +50,7 @@
 
         1. Preprocessing.py: This code should be executed first.
 
-        2. Processing2.py: This code should not be executed without executing Preprocessing.py and this code should be executed only after executing 					     Preprocessing algorithm.
+        2. Preprocessing2.py: This code should not be executed without executing Preprocessing.py and this code should be executed only after executing 					     Preprocessing algorithm.
 
     How to run the code:
     -------------------------
