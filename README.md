@@ -11,9 +11,9 @@
 
         This repository has two directories, Left and right.
 
-        1. Left: This directory has all the data acquired from left camera, and all the codes and files related to processing of raw data of right camera only.
+        1. Left: This directory has all the data acquired from left camera, and all the codes and files related to processing of raw data acquired from left camera only.
 
-        1. right: This directory has all the data acquired from right camera, and all the codes and files related to processing of raw data from right camera only.
+        1. right: This directory has all the data acquired from right camera, and all the codes and files related to processing of raw data acquired from right camera only.
 
         Both directories have certain sub-directories and files:
 
@@ -25,6 +25,8 @@
         2. Not_processed_images: This folder has all those extracted images which are not processed even after running preprocessing algorithm.
 
         3. Final_images: All the preprocessed images are saved inside this directory.
+	
+	There are some more directories and files, which were used while development of the code for experimental purpose. User do not have to worry about those directories.
 
         Files:
         ------
@@ -33,7 +35,7 @@
 
         2. Preprocessing.py: This is main python code which is implementation of preprocessing algorithm.
 
-        3. ProcessingNotprocessedimages.py: This code should be executed after running Preprocessing algorithm on raw data. It processes those images which are not processed 		    properly after applying preprocessing algorithm.
+        3. Processing2.py: This code should be executed after running Preprocessing algorithm on raw data. It processes those images which are not processed 		    					     properly after applying preprocessing algorithm.
 
     Dependencies:
     -----------------
@@ -48,7 +50,7 @@
 
         1. Preprocessing.py: This code should be executed first.
 
-        2. ProcessingNotprocessedimages.py: This code should not be executed without executing Preprocessing.py and this code should be executed only after executing 									  Preprocessing algorithm.
+        2. Processing2.py: This code should not be executed without executing Preprocessing.py and this code should be executed only after executing 					     Preprocessing algorithm.
 
     How to run the code:
     -------------------------
